@@ -1,0 +1,20 @@
+info.name=Simple info
+info.type=Simple Type
+info.scope=Simple
+
+
+#USe wildcard "*" to expose all endpoints
+#Can also expose individual endpoints with a comma-delimited list
+
+management.endpoints.web.exposure.include=*
+
+#Exclude individual endpoints 
+#management.endpoints.web.exposure.exclude=health,info
+
+#DEfine any properties
+coach.name= Charles Darwin
+team.name= Soviet Union
+
+#change spring boot embedded server port
+
+server.port=7070
